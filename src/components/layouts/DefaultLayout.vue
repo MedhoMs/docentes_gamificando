@@ -5,10 +5,11 @@ import RouterLinkHeader from '../RouterLinkHeader.vue';
 
 <template>
   <header class="flex items-center flex-col bg-[#0e3c6e] border-b-gray-600 border-solid">
-    <img src="/src/components/img/docentes-gamificando.png" alt="Docentes Gamificando" class="w-96 mt-7">
+    <a href="/">
+      <img src="/src/components/img/docentes-gamificando.png" alt="Docentes Gamificando" class="w-96 mt-7">
+    </a>
 
     <nav class="text-white font-bold mt-8 mb-4 flex flex-wrap space-x-4 relative">
-      <RouterLinkHeader to="/pantalla">PANTALLA PRINCIPAL</RouterLinkHeader>
 
       <div class="relative group">
         <router-link class="px-4 hover:text-[#f79502] cursor-pointer">RECURSOS ▼</router-link>

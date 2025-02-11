@@ -5,7 +5,7 @@ import TeamPage from '@/components/TeamPage.vue';
 
 const routes = [
   {
-    path: '/pantalla',
+    path: '/',
     name: 'HelloWorld',
     component: HelloWorld,
   },

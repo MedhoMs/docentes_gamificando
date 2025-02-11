@@ -221,15 +221,18 @@ const team = [
                     <div>
                         <img :src="person.image">
                     </div>
-                    <section class="flex flex-col text-white">
+                    <section class="flex flex-col text-white justify-between p-2">
                         <div>
-                            {{ person.name }}
+                            <div class="font-bold">
+                                {{ person.name }}
+                            </div>
+                            
                             <div>
                                 {{ person.job }}
                             </div>
                         </div>
                         
-                        <div>
+                        <div class="text-sm">
                             {{ person.description }}
                         </div>
 
