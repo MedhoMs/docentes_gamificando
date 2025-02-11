@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HelloWorld from '../components/HelloWorld.vue';
-import ContestPage from '../views/ContestPage.vue';
+import ContestPage from '../components/ContestPage.vue';
 import TeamPage from '@/components/TeamPage.vue';
 
 const routes = [

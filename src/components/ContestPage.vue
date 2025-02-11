@@ -8,12 +8,12 @@ export default {
   name: "BaseBlock",
   data() {
     return {
-      array: ['/src/components/img/itineratios.png', 
-      '/src/components/img/tablasmultiplicar.png', 
-      '/src/components/img/mensaje.png', 
-      '/src/components/img/pasapalabra-navideno.png', 
-      '/src/components/img/juguem-al-nadal.png', 
-      '/src/components/img/christmas-factory.png'],
+      array: ['/img/apps/itineratios.png', 
+      '/img/apps/tablasmultiplicar.png', 
+      '/img/apps/mensaje.png', 
+      '/img/apps/pasapalabra-navideno.png', 
+      '/img/apps/juguem-al-nadal.png', 
+      '/img/apps/christmas-factory.png'],
     };
   },
 };
