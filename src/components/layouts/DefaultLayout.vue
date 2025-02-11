@@ -12,7 +12,7 @@ import RouterLinkHeader from '../RouterLinkHeader.vue';
     <nav class="text-white font-bold mt-8 mb-4 flex flex-wrap space-x-4 relative">
 
       <div class="relative group">
-        <router-link class="px-4 hover:text-[#f79502] cursor-pointer">RECURSOS ▼</router-link>
+        <span class="px-4 hover:text-[#f79502] cursor-pointer">RECURSOS ▼</span>
         <div class="absolute left-0 hidden group-hover:block bg-white text-black w-48 shadow-lg rounded-md">
           <RouterLinkHeaderGroup to="/contest">Concurso</RouterLinkHeaderGroup>
           <RouterLinkHeaderGroup to="#">Herramientas</RouterLinkHeaderGroup>
@@ -22,14 +22,14 @@ import RouterLinkHeader from '../RouterLinkHeader.vue';
       </div>
       
       <div class="relative group">
-        <router-link class="px-4 hover:text-[#f79502] cursor-pointer">EMISIONES ▼</router-link>
+        <span class="px-4 hover:text-[#f79502] cursor-pointer">EMISIONES ▼</span>
         <div class="absolute left-0 hidden group-hover:block bg-white text-black w-48 shadow-lg rounded-md">
           <RouterLinkHeaderGroup to="#">Directos</RouterLinkHeaderGroup>
           <RouterLinkHeaderGroup to="#">Grabaciones</RouterLinkHeaderGroup>
         </div>
       </div>
       
-      <RouterLinkHeader>PROYECTOS</RouterLinkHeader>
+      <RouterLinkHeader to="#">PROYECTOS</RouterLinkHeader>
       <RouterLinkHeader to="/team">EQUIPO</RouterLinkHeader>
 
       <button class="ml-4">
