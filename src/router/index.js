@@ -2,8 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HelloWorld from '../components/HelloWorld.vue';
 import ContestPage from '../components/ContestPage.vue';
 import TeamPage from '@/components/TeamPage.vue';
-import GamificaapsDescriptionPage from '@/components/GamificaapsDescriptionPage.vue';
+import GamificappsDescriptionPage from '@/components/GamificappsDescriptionPage.vue';
 import InterviewsPage from '@/components/InterviewsPage.vue';
+import InterviewsDescriptions from '@/components/InterviewsDescriptions.vue';
 
 const routes = [
   {
@@ -22,14 +23,19 @@ const routes = [
     component: TeamPage,
   },
   {
-    path: '/description',
-    name: 'Description',
-    component: GamificaapsDescriptionPage,
+    path: '/gamificappsdescription',
+    name: 'GamificappsDescription',
+    component: GamificappsDescriptionPage,
   },
   {
     path: '/interviews',
     name: 'Interviews',
     component: InterviewsPage,
+  },
+  {
+    path: '/interviews_description',
+    name: 'InterviewsDescription',
+    component: InterviewsDescriptions,
   },
 ];
 

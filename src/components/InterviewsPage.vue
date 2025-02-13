@@ -62,7 +62,9 @@ const interviews
             <div class="grid grid-cols-1 md:grid-cols-4 max-w-4xl mx-auto gap-4 mt-5 pb-8">
                 <div v-for="interview in interviews" class="bg-white rounded-lg flex flex-col shadow-[-2px_2px_15px_] shadow-neutral-600">
                     <div class="flex justify-center">
+                      <router-link to="/interviews_description">
                         <img :src="interview.image" class="md:rounded-t-lg md:rounded-tr-lg">
+                      </router-link>
                     </div>
                     <div class="flex flex-col text-blue-900 py-3 px-2 ">
                         <div class="text-base font-semibold">
