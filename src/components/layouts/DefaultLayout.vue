@@ -25,20 +25,19 @@ function toggleMenu() {
       </button>
       <!-- MENU BUTTON -->
 
-      <!-- MENU PRINCIPAL -->
       <div id="menu" :class="{'hidden': !isMenuOpen, 'md:flex': true}" class="flex-wrap space-x-4">
         <RouterLinkHeader to="#">PANTALLA PRINCIPAL</RouterLinkHeader>
 
         <div class="relative group">
-          <span class="px-4 hover:text-[#f79502] cursor-pointer">RECURSOS ▼</span>
-          <div class="absolute left-0 hidden group-hover:block bg-white text-black w-48 shadow-lg rounded-md">
+          <span class="px-4 cursor-pointer">RECURSOS ▼</span>
+          <div class="absolute left-0 hidden bg-[#f79502] group-hover:block md:bg-white text-white w-48 shadow-lg rounded-md z-50">
             <RouterLinkHeaderGroup to="/contest">CONCURSOS</RouterLinkHeaderGroup>
           </div>
         </div>
 
         <div class="relative group">
-          <span class="px-4 hover:text-[#f79502] cursor-pointer">EMISIONES ▼</span>
-          <div class="absolute left-0 hidden group-hover:block bg-white text-black w-48 shadow-lg rounded-md">
+          <span class="px-4 cursor-pointer">EMISIONES ▼</span>
+          <div class="absolute left-0 hidden bg-[#f79502] group-hover:block md:bg-white text-white w-48 shadow-lg rounded-md z-40">
             <RouterLinkHeaderGroup to="/interviews">ENTREVISTAS</RouterLinkHeaderGroup>
           </div>
         </div>
