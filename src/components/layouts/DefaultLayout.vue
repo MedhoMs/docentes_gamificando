@@ -4,7 +4,7 @@ import RouterLinkHeader from '../RouterLinkHeader.vue';
 </script>
 
 <template>
-  <header class="flex items-center flex-col bg-[#0e3c6e] border-b-gray-600 border-solid">
+  <header class="flex items-center flex-col bg-[#0e3c6e] border-b-orange-600 border-solid">
     <a href="/">
       <img src="/src/components/img/docentes-gamificando.png" alt="Docentes Gamificando" class="w-96 mt-7">
     </a>
@@ -14,7 +14,7 @@ import RouterLinkHeader from '../RouterLinkHeader.vue';
       <div class="relative group">
         <span class="px-4 hover:text-[#f79502] cursor-pointer">RECURSOS ▼</span>
         <div class="absolute left-0 hidden group-hover:block bg-white text-black w-48 shadow-lg rounded-md">
-          <RouterLinkHeaderGroup to="/contest">Concurso</RouterLinkHeaderGroup>
+          <RouterLinkHeaderGroup to="/contest">CONCURSOS</RouterLinkHeaderGroup>
           <RouterLinkHeaderGroup to="#">Herramientas</RouterLinkHeaderGroup>
           <RouterLinkHeaderGroup to="#">Materiales</RouterLinkHeaderGroup>
           <RouterLinkHeaderGroup to="#">Tutoriales</RouterLinkHeaderGroup>
@@ -24,8 +24,9 @@ import RouterLinkHeader from '../RouterLinkHeader.vue';
       <div class="relative group">
         <span class="px-4 hover:text-[#f79502] cursor-pointer">EMISIONES ▼</span>
         <div class="absolute left-0 hidden group-hover:block bg-white text-black w-48 shadow-lg rounded-md">
-          <RouterLinkHeaderGroup to="#">Directos</RouterLinkHeaderGroup>
-          <RouterLinkHeaderGroup to="#">Grabaciones</RouterLinkHeaderGroup>
+          <RouterLinkHeaderGroup to="#">Webinars</RouterLinkHeaderGroup>
+          <RouterLinkHeaderGroup to="/interviews">ENTREVISTAS</RouterLinkHeaderGroup>
+          <RouterLinkHeaderGroup to="#">Genially</RouterLinkHeaderGroup>
         </div>
       </div>
       
@@ -43,7 +44,7 @@ import RouterLinkHeader from '../RouterLinkHeader.vue';
   </section>
 
   <footer>
-    <p class="bg-neutral-700 text-white text-center py-7 mt-8 mb-0 font-bold">
+    <p class="bg-neutral-700 text-white text-center py-7 mb-0 font-bold">
       Copyright © 2025 Docentes Gamificando | Desarrollado por elClaudiEons</p>
     <div class="bg-neutral-800 text-neutral-400 py-2 mt-0 text-center">
       <a href="#" class="mx-2 hover:text-white">Aviso Legal</a>
