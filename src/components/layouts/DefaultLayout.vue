@@ -12,9 +12,9 @@ function toggleMenu() {
 
 <template>
   <header class="flex items-center flex-col bg-[#0e3c6e] border-b-orange-600 border-solid">
-    <a href="/">
+    <router-link to="/gamificapps">
       <img src="/src/components/img/docentes-gamificando.png" alt="Docentes Gamificando" class="w-96 mt-7">
-    </a>
+    </router-link>
 
     <nav class="text-white font-bold mt-8 mb-4 relative">
       <!-- MENU BUTTON -->
@@ -30,14 +30,14 @@ function toggleMenu() {
 
         <div class="relative group">
           <span class="px-4 cursor-pointer">RECURSOS ▼</span>
-          <div class="absolute left-0 hidden bg-[#f79502] group-hover:block md:bg-white text-white w-48 shadow-lg rounded-md z-50">
+          <div class="absolute left-0 hidden text-white bg-[#f79502] md:bg-white md:hover:bg-[#f79502] md:text-black group-hover:block w-48 shadow-lg rounded-md z-50">
             <RouterLinkHeaderGroup to="/contest">CONCURSOS</RouterLinkHeaderGroup>
           </div>
         </div>
 
         <div class="relative group">
           <span class="px-4 cursor-pointer">EMISIONES ▼</span>
-          <div class="absolute left-0 hidden bg-[#f79502] group-hover:block md:bg-white text-white w-48 shadow-lg rounded-md z-40">
+          <div class="absolute left-0 hidden text-white bg-[#f79502] md:bg-white md:hover:bg-[#f79502] md:text-black group-hover:block w-48 shadow-lg rounded-md z-40">
             <RouterLinkHeaderGroup to="/interviews">ENTREVISTAS</RouterLinkHeaderGroup>
           </div>
         </div>

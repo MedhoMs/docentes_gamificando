@@ -14,7 +14,7 @@ const interviews
         <h1 class="text-center text-4xl bg-[#11375f] p-6 text-white font-bold">GAMIFICANDO CON SUPERHEROES UTILIZANDO GENIALLY Y MYCLASSGAME</h1>
         <div>
             <div class="bg-gradient-to-b from-[#29bfff] to-white">
-                <h3 class="max-w-4xl mx-auto font-semibold py-5 text-left md:">Hoy tengo el placer y el honor de recibir a David Ruiz conocido en redes como @Dondavidruiz. Un maestro como
+                <h3 class="max-w-4xl mx-auto font-semibold py-5 text-left px-4 lg:px-0">Hoy tengo el placer y el honor de recibir a David Ruiz conocido en redes como @Dondavidruiz. Un maestro como
                     pocos, descendiente de las últimas generaciones de alumnos y alumnas que fuimos a la EGB y un apasionado de su
                     familia, sus amigos y su profesión. En la actualidad es tutor de primaria en el CEIP Kantica de Arroyo de la
                     Encomienda en Valladolid y formador de formadores, rompiendo moldes y revolucionando la forma de enseñar de una
@@ -25,8 +25,8 @@ const interviews
                 </h3>
 
                 <!--PONENTES-->
-                <h3 class="font-semibold max-w-4xl mx-auto">Ponentes:</h3>
-                <div class="flex flex-col max-w-4xl mx-auto">
+                <h3 class="font-semibold max-w-4xl mx-auto px-4 lg:px-0">Ponentes:</h3>
+                <div class="flex flex-col max-w-4xl mx-auto px-4 lg:px-0">
                     <div class="flex gap-5">
                         <h4 class="flex items-center">Alfons Nàcher Martínez</h4>
                         <div class="flex gap-2 mt-3 md:mt-0">
@@ -76,9 +76,12 @@ const interviews
 
             <div class="bg-gradient-to-b from-white via-[#29bfff] to-[#a3a3a3]">
                 <div class="max-w-4xl mx-auto">
-                    <iframe width="905" height="536" src="https://www.youtube.com/embed/TARRGdNJdUQ?si=lMtG5ackUxlArVhO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="905" height="536" class="hidden md:block" src="https://www.youtube.com/embed/TARRGdNJdUQ?si=lMtG5ackUxlArVhO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="flex justify-center">
+                        <iframe width="380" height="336" class="md:hidden" src="https://www.youtube.com/embed/TARRGdNJdUQ?si=lMtG5ackUxlArVhO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
-                <h3 class="max-w-4xl mx-auto mt-2 mb-10">SUMMARY</h3>
+                <h3 class="max-w-4xl mx-auto mt-2 mb-10 flex justify-center md:">SUMMARY</h3>
 
                 <div class="grid grid-cols-3 max-w-3xl mx-auto gap-4 mb-7">
                     <div v-for="interview in interviews">

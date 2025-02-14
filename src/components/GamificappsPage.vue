@@ -41,7 +41,7 @@ import DefaultLayout from '../components/layouts/DefaultLayout.vue';
     <section class="pb-8">
       <div class="flex items-center flex-col pt-4 bg-[#1681f5] text-white font-bold">
         <h1 class="text-3xl pb-3">GamificApps</h1>
-        <h3 class="pb-5">Aplicaciones y herramientas para llevar las gamificaciones al siguiente nivel.</h3>
+        <h3 class="pb-5 text-center">Aplicaciones y herramientas para llevar las gamificaciones al siguiente nivel.</h3>
       </div>
 
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 p-8 max-w-7xl mx-auto">

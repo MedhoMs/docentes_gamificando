@@ -1,16 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HelloWorld from '../components/HelloWorld.vue';
+import GamificappsPage from '../components/GamificappsPage.vue';
 import ContestPage from '../components/ContestPage.vue';
 import TeamPage from '@/components/TeamPage.vue';
 import GamificappsDescriptionPage from '@/components/GamificappsDescriptionPage.vue';
 import InterviewsPage from '@/components/InterviewsPage.vue';
 import InterviewsDescriptions from '@/components/InterviewsDescriptions.vue';
 
+
 const routes = [
   {
-    path: '/',
-    name: 'HelloWorld',
-    component: HelloWorld,
+    path: '/gamificapps',
+    name: 'Gamificapps',
+    component: GamificappsPage,
   },
   {
     path: '/contest',
