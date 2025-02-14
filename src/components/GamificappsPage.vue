@@ -1,9 +1,8 @@
-<script>
-export default {
-  name: "BaseBlock",
-  data() {
-    return {
-      array: ['/img/apps/wordwall.png', 
+<script setup>
+import DefaultLayout from '../components/layouts/DefaultLayout.vue';
+
+const logos = [
+      '/img/apps/wordwall.png', 
       '/img/apps/peardeck.webp', 
       '/img/apps/liveworksheets.png', 
       '/img/apps/Learning_Apps.jpg', 
@@ -26,14 +25,8 @@ export default {
       '/img/apps/edpuzzle.png', 
       '/img/apps/class-dojo.png', 
       '/img/apps/canva.webp', 
-      '/img/apps/Genially.png'],
-    };
-  },
-};
-</script>
-
-<script setup>
-import DefaultLayout from '../components/layouts/DefaultLayout.vue';
+      '/img/apps/Genially.png'
+]
 </script>
 
 <template>
@@ -45,9 +38,9 @@ import DefaultLayout from '../components/layouts/DefaultLayout.vue';
       </div>
 
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 p-8 max-w-7xl mx-auto">
-        <div v-for="x in array" class="bg-neutral-300 p-4 rounded-lg flex justify-center items-center shadow-md">
+        <div v-for="logo in logos" class="bg-neutral-300 p-4 rounded-lg flex justify-center items-center shadow-md">
           <router-link to="/gamificappsdescription">
-            <img :src="x" class="max-w-full h-auto object-contain">
+            <img :src="logo" class="max-w-full h-auto object-contain aspect-square">
           </router-link>
         </div>
       </div>

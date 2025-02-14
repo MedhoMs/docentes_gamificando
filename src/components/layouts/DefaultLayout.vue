@@ -11,7 +11,7 @@ function toggleMenu() {
 </script>
 
 <template>
-  <header class="flex items-center flex-col bg-[#0e3c6e] border-b-2 border-orange-400 border-solid">
+  <header class="flex items-center flex-col bg-[#092c53] border-b-2 border-orange-400 border-solid">
     <router-link to="/gamificapps">
       <img src="/img/apps/docentes-gamificando.png" alt="Docentes Gamificando" class="w-96 mt-7">
     </router-link>
@@ -25,7 +25,7 @@ function toggleMenu() {
       </button>
       <!-- MENU BUTTON -->
 
-      <div id="menu" :class="{'hidden': !isMenuOpen, 'md:flex': true}" class="flex-wrap space-x-4">
+      <div id="menu" :class="{'hidden': !isMenuOpen}" class="flex-wrap space-x-4 md:flex">
         <RouterLinkHeader to="/">PANTALLA PRINCIPAL</RouterLinkHeader>
 
         <div class="relative group">
