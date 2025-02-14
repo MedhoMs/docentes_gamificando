@@ -5,9 +5,15 @@ import TeamPage from '@/components/TeamPage.vue';
 import GamificappsDescriptionPage from '@/components/GamificappsDescriptionPage.vue';
 import InterviewsPage from '@/components/InterviewsPage.vue';
 import InterviewsDescriptions from '@/components/InterviewsDescriptions.vue';
+import PrincipalScreen from '@/components/PrincipalScreen.vue';
 
 
 const routes = [
+  {
+    path: '/',
+    name: 'PrincipalScreen',
+    component: PrincipalScreen,
+  },
   {
     path: '/gamificapps',
     name: 'Gamificapps',
