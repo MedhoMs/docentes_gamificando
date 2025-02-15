@@ -67,7 +67,7 @@
         <!--CABECERA LOGO-->
           <div class="text-center bg-[#1660ae] text-white py-14">
             <h1 class="font-bold text-6xl mb-4">Docentes Gamificando</h1>
-            <h3 class="tracking-[1.5px]">TRANSFORMAMOS LAS AULAS A TRAVES DE LA GAMIFICACIÓN</h3>
+            <h3 class="tracking-[1.5px] text-[#f79502]">TRANSFORMAMOS LAS AULAS A TRAVES DE LA GAMIFICACIÓN</h3>
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"><path d="M1000 100C500 100 500 4 0 4V0h1000v100Z" fill="#1660ae"></path></svg>
@@ -80,8 +80,8 @@
           <div class="flex justify-between text-white lg:max-w-6xl lg:mx-auto pl-14">
             <div class="mt-2">
               <h1 class="text-3xl font-bold mb-3">Bienvenid@s</h1>
-              <p class="text-lg mb-5">Trabajamos para ser un andamiaje en el camino hacia la <br> <span class="font-bold">gamificación de las aulas.</span></p>
-              <p class="text-lg"><span class="font-bold">Únete a nuestra comunidad</span> y ayúdanos a crear y compartir <br> recursos para que ese gran <span class="font-bold">esfuerzo</span> que haces en tus aulas <br> pueda ser <span class="font-bold">inspirador</span> para muchas otras personas.</p>
+              <p class="text-lg mb-5">Trabajamos para ser un andamiaje en el camino hacia la  <span class="font-bold">gamificación de las aulas.</span></p>
+              <p class="text-lg"><span class="font-bold">Únete a nuestra comunidad</span> y ayúdanos a crear y compartir  recursos para que ese gran <span class="font-bold">esfuerzo</span> que haces en tus aulas  pueda ser <span class="font-bold">inspirador</span> para muchas otras personas.</p>
 
               <div class="flex gap-9 mt-8">
                 <router-link to="/team">
@@ -107,11 +107,13 @@
         <!--MAS ALLA-->
         <div class="bg-[#1d4b80] pt-9">
             <div class="grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto">
-                <div class="flex flex-col mx-auto shadow-[-2px_-3px_20px_] shadow-neutral-800 px-5 pb-2 lg:pb-7">
-                    <div class="font-bold text-4xl text-white">
-                        <h1 class="text-center">Más allá del juego: <br> Gamificando de la A-Z!</h1>
+                <div>
+                    <div class="flex flex-col mx-auto shadow-[-2px_-3px_20px_] shadow-neutral-800 px-5 pb-2 lg:pb-7">
+                        <div class="font-bold text-4xl text-white">
+                            <h1 class="text-center">Más allá del juego: <br> Gamificando de la A-Z!</h1>
+                        </div>
+                        <img width="460" class="rounded-3xl m-0 lg:m-4 bg-blue-500 transition duration-300 ease-in-out lg:hover:translate-y-4 lg:hover:scale-[1.15] " src="/img/Mas-alla-del-Juego.webp" alt="">
                     </div>
-                    <img width="460" class="rounded-3xl m-0 lg:m-4 bg-blue-500 transition duration-300 ease-in-out lg:hover:translate-y-4 lg:hover:scale-[1.15] " src="/img/Mas-alla-del-Juego.webp" alt="">
                 </div>
 
                 <div class="text-white text-center italic mt-6 mx-3 lg:mx-0">
@@ -131,7 +133,7 @@
         <!--MAS ALLA-->
 
         <!--ULTIMAS ENTRADAS-->
-        <div class="bg-[#1d4b80] pt-9 p">
+        <div class="bg-[#1d4b80] pt-9 px-2">
             <h1 class="text-5xl font-bold text-white mb-3 max-w-6xl mx-auto underline">Últimas entradas</h1>
             <div class="grid grid-cols-1 md:grid-cols-4 max-w-6xl mx-auto gap-4 pb-7 ">
                 <div v-for="interview in interviews">
@@ -161,10 +163,13 @@
         </div>
         <!--NUEVA SECCION-->
 
-        <div class="flex justify-evenly mx-auto bg-[#1d4b80] pt-11">
-            <h3>asdf</h3>
-            <h1>asdf</h1>
+        <div class="bg-[#1d4b80] text-white pb-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 justify-evenly max-w-6xl mx-auto pt-11">
+                <p class="md:max-w-md">Te ofrecemos una infinidad de recursos y la posibilidad de formar parte de nuestra comunidad para aprender a crear gamificaciones sorprendentes en tu aula.</p>
+                <h1 class="text-5xl text-center">Te ayudamos a diseñar las clases que sueñas</h1>
+            </div>
         </div>
+        
       
     </div>
   </DefaultLayout>

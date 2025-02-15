@@ -11,7 +11,7 @@ function toggleMenu() {
 </script>
 
 <template>
-  <header class="flex items-center flex-col bg-[#092c53] border-b-2 border-orange-400 border-solid">
+  <header class="flex flex-col items-center md:flex-row bg-[#092c53] border-b-2 border-orange-400 border-solid pb-2">
     <router-link to="/gamificapps">
       <img src="/img/apps/docentes-gamificando.png" alt="Docentes Gamificando" class="w-96 mt-7">
     </router-link>
@@ -42,8 +42,10 @@ function toggleMenu() {
           </div>
         </div>
 
-        <RouterLinkHeader to="#">PROYECTOS</RouterLinkHeader>
-        <RouterLinkHeader to="/team">EQUIPO</RouterLinkHeader>
+        <div>
+          <RouterLinkHeader to="#" class="inline-block">PROYECTOS</RouterLinkHeader>
+        </div>
+        <RouterLinkHeader to="/team" class="inline-block">EQUIPO</RouterLinkHeader>
 
         <button class="ml-4">
           <img src="/img/apps/lupa.png" alt="Buscar" class="w-4">
